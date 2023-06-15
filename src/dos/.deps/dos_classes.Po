@@ -1,0 +1,276 @@
+dos_classes.o: dos_classes.cpp /home/ben/pspdev/psp/include/string.h \
+ /home/ben/pspdev/psp/include/_ansi.h \
+ /home/ben/pspdev/psp/include/newlib.h \
+ /home/ben/pspdev/psp/include/_newlib_version.h \
+ /home/ben/pspdev/psp/include/sys/config.h \
+ /home/ben/pspdev/psp/include/machine/ieeefp.h \
+ /home/ben/pspdev/psp/include/sys/features.h \
+ /home/ben/pspdev/psp/include/sys/reent.h \
+ /home/ben/pspdev/psp/include/_ansi.h \
+ /home/ben/pspdev/lib/gcc/psp/11.2.0/include/stddef.h \
+ /home/ben/pspdev/psp/include/sys/_types.h \
+ /home/ben/pspdev/psp/include/machine/_types.h \
+ /home/ben/pspdev/psp/include/machine/_default_types.h \
+ /home/ben/pspdev/psp/include/sys/lock.h \
+ /home/ben/pspdev/psp/include/sys/cdefs.h \
+ /home/ben/pspdev/psp/include/sys/_locale.h \
+ /home/ben/pspdev/psp/include/strings.h \
+ /home/ben/pspdev/psp/include/sys/string.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/stdlib.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/cstdlib \
+ /home/ben/pspdev/psp/include/c++/11.2.0/psp/bits/c++config.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/psp/bits/os_defines.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/psp/bits/cpu_defines.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/pstl/pstl_config.h \
+ /home/ben/pspdev/psp/include/stdlib.h \
+ /home/ben/pspdev/psp/include/machine/stdlib.h \
+ /home/ben/pspdev/psp/include/alloca.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/bits/std_abs.h \
+ ../../include/dosbox.h ../../config.h ../../include/logging.h \
+ ../../include/mem.h ../../include/dos_inc.h ../../include/dos_system.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/vector \
+ /home/ben/pspdev/psp/include/c++/11.2.0/bits/stl_algobase.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/bits/functexcept.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/bits/exception_defines.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/bits/cpp_type_traits.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/ext/type_traits.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/ext/numeric_traits.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/bits/stl_pair.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/bits/move.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/type_traits \
+ /home/ben/pspdev/psp/include/c++/11.2.0/bits/stl_iterator_base_types.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/bits/stl_iterator_base_funcs.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/bits/concept_check.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/debug/assertions.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/bits/stl_iterator.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/bits/ptr_traits.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/debug/debug.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/bits/predefined_ops.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/bits/allocator.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/psp/bits/c++allocator.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/ext/new_allocator.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/new \
+ /home/ben/pspdev/psp/include/c++/11.2.0/bits/exception.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/bits/memoryfwd.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/bits/stl_construct.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/bits/stl_uninitialized.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/ext/alloc_traits.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/bits/alloc_traits.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/bits/stl_vector.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/initializer_list \
+ /home/ben/pspdev/psp/include/c++/11.2.0/bits/stl_bvector.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/bits/functional_hash.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/bits/hash_bytes.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/bits/range_access.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/bits/vector.tcc \
+ ../../include/cross.h /home/ben/pspdev/psp/include/stdio.h \
+ /home/ben/pspdev/lib/gcc/psp/11.2.0/include/stdarg.h \
+ /home/ben/pspdev/psp/include/sys/types.h \
+ /home/ben/pspdev/psp/include/sys/_stdint.h \
+ /home/ben/pspdev/psp/include/machine/endian.h \
+ /home/ben/pspdev/psp/include/machine/_endian.h \
+ /home/ben/pspdev/psp/include/sys/select.h \
+ /home/ben/pspdev/psp/include/sys/_sigset.h \
+ /home/ben/pspdev/psp/include/sys/_timeval.h \
+ /home/ben/pspdev/psp/include/sys/timespec.h \
+ /home/ben/pspdev/psp/include/sys/_timespec.h \
+ /home/ben/pspdev/psp/include/sys/_pthreadtypes.h \
+ /home/ben/pspdev/psp/include/bits/posix_opt.h \
+ /home/ben/pspdev/lib/gcc/psp/11.2.0/include-fixed/limits.h \
+ /home/ben/pspdev/psp/include/sys/sched.h \
+ /home/ben/pspdev/psp/include/machine/types.h \
+ /home/ben/pspdev/psp/include/sys/stdio.h \
+ /home/ben/pspdev/psp/include/sys/stat.h \
+ /home/ben/pspdev/psp/include/time.h \
+ /home/ben/pspdev/psp/include/machine/time.h \
+ /home/ben/pspdev/psp/include/signal.h \
+ /home/ben/pspdev/psp/include/sys/signal.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/string \
+ /home/ben/pspdev/psp/include/c++/11.2.0/bits/stringfwd.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/bits/char_traits.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/bits/postypes.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/cwchar \
+ /home/ben/pspdev/psp/include/wchar.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/cstdint \
+ /home/ben/pspdev/lib/gcc/psp/11.2.0/include/stdint.h \
+ /home/ben/pspdev/psp/include/stdint.h \
+ /home/ben/pspdev/psp/include/sys/_intsup.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/bits/localefwd.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/psp/bits/c++locale.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/clocale \
+ /home/ben/pspdev/psp/include/locale.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/iosfwd \
+ /home/ben/pspdev/psp/include/c++/11.2.0/cctype \
+ /home/ben/pspdev/psp/include/ctype.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/bits/ostream_insert.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/bits/cxxabi_forced.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/bits/stl_function.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/backward/binders.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/bits/basic_string.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/ext/atomicity.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/psp/bits/gthr.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/psp/bits/gthr-default.h \
+ /home/ben/pspdev/psp/include/pthread.h \
+ /home/ben/pspdev/psp/include/pte_types.h \
+ /home/ben/pspdev/psp/include/errno.h \
+ /home/ben/pspdev/psp/include/sys/errno.h \
+ /home/ben/pspdev/psp/include/sys/timeb.h \
+ /home/ben/pspdev/psp/include/sched.h \
+ /home/ben/pspdev/psp/include/bits/posix_opt.h \
+ /home/ben/pspdev/psp/include/sys/_pthreadtypes.h \
+ /home/ben/pspdev/psp/include/setjmp.h \
+ /home/ben/pspdev/psp/include/machine/setjmp.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/psp/bits/atomic_word.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/string_view \
+ /home/ben/pspdev/psp/include/c++/11.2.0/bits/string_view.tcc \
+ /home/ben/pspdev/psp/include/c++/11.2.0/ext/string_conversions.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/cstdio \
+ /home/ben/pspdev/psp/include/c++/11.2.0/cerrno \
+ /home/ben/pspdev/psp/include/c++/11.2.0/bits/charconv.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/bits/basic_string.tcc \
+ /home/ben/pspdev/psp/include/dirent.h \
+ /home/ben/pspdev/psp/include/sys/dirent.h \
+ /home/ben/pspdev/psp/include/unistd.h \
+ /home/ben/pspdev/psp/include/sys/unistd.h ../../include/support.h \
+ ../../include/support.h
+/home/ben/pspdev/psp/include/string.h:
+/home/ben/pspdev/psp/include/_ansi.h:
+/home/ben/pspdev/psp/include/newlib.h:
+/home/ben/pspdev/psp/include/_newlib_version.h:
+/home/ben/pspdev/psp/include/sys/config.h:
+/home/ben/pspdev/psp/include/machine/ieeefp.h:
+/home/ben/pspdev/psp/include/sys/features.h:
+/home/ben/pspdev/psp/include/sys/reent.h:
+/home/ben/pspdev/psp/include/_ansi.h:
+/home/ben/pspdev/lib/gcc/psp/11.2.0/include/stddef.h:
+/home/ben/pspdev/psp/include/sys/_types.h:
+/home/ben/pspdev/psp/include/machine/_types.h:
+/home/ben/pspdev/psp/include/machine/_default_types.h:
+/home/ben/pspdev/psp/include/sys/lock.h:
+/home/ben/pspdev/psp/include/sys/cdefs.h:
+/home/ben/pspdev/psp/include/sys/_locale.h:
+/home/ben/pspdev/psp/include/strings.h:
+/home/ben/pspdev/psp/include/sys/string.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/stdlib.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/cstdlib:
+/home/ben/pspdev/psp/include/c++/11.2.0/psp/bits/c++config.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/psp/bits/os_defines.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/psp/bits/cpu_defines.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/pstl/pstl_config.h:
+/home/ben/pspdev/psp/include/stdlib.h:
+/home/ben/pspdev/psp/include/machine/stdlib.h:
+/home/ben/pspdev/psp/include/alloca.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/bits/std_abs.h:
+../../include/dosbox.h:
+../../config.h:
+../../include/logging.h:
+../../include/mem.h:
+../../include/dos_inc.h:
+../../include/dos_system.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/vector:
+/home/ben/pspdev/psp/include/c++/11.2.0/bits/stl_algobase.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/bits/functexcept.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/bits/exception_defines.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/bits/cpp_type_traits.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/ext/type_traits.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/ext/numeric_traits.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/bits/stl_pair.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/bits/move.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/type_traits:
+/home/ben/pspdev/psp/include/c++/11.2.0/bits/stl_iterator_base_types.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/bits/concept_check.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/debug/assertions.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/bits/stl_iterator.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/bits/ptr_traits.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/debug/debug.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/bits/predefined_ops.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/bits/allocator.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/psp/bits/c++allocator.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/ext/new_allocator.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/new:
+/home/ben/pspdev/psp/include/c++/11.2.0/bits/exception.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/bits/memoryfwd.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/bits/stl_construct.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/bits/stl_uninitialized.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/ext/alloc_traits.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/bits/alloc_traits.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/bits/stl_vector.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/initializer_list:
+/home/ben/pspdev/psp/include/c++/11.2.0/bits/stl_bvector.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/bits/functional_hash.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/bits/hash_bytes.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/bits/range_access.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/bits/vector.tcc:
+../../include/cross.h:
+/home/ben/pspdev/psp/include/stdio.h:
+/home/ben/pspdev/lib/gcc/psp/11.2.0/include/stdarg.h:
+/home/ben/pspdev/psp/include/sys/types.h:
+/home/ben/pspdev/psp/include/sys/_stdint.h:
+/home/ben/pspdev/psp/include/machine/endian.h:
+/home/ben/pspdev/psp/include/machine/_endian.h:
+/home/ben/pspdev/psp/include/sys/select.h:
+/home/ben/pspdev/psp/include/sys/_sigset.h:
+/home/ben/pspdev/psp/include/sys/_timeval.h:
+/home/ben/pspdev/psp/include/sys/timespec.h:
+/home/ben/pspdev/psp/include/sys/_timespec.h:
+/home/ben/pspdev/psp/include/sys/_pthreadtypes.h:
+/home/ben/pspdev/psp/include/bits/posix_opt.h:
+/home/ben/pspdev/lib/gcc/psp/11.2.0/include-fixed/limits.h:
+/home/ben/pspdev/psp/include/sys/sched.h:
+/home/ben/pspdev/psp/include/machine/types.h:
+/home/ben/pspdev/psp/include/sys/stdio.h:
+/home/ben/pspdev/psp/include/sys/stat.h:
+/home/ben/pspdev/psp/include/time.h:
+/home/ben/pspdev/psp/include/machine/time.h:
+/home/ben/pspdev/psp/include/signal.h:
+/home/ben/pspdev/psp/include/sys/signal.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/string:
+/home/ben/pspdev/psp/include/c++/11.2.0/bits/stringfwd.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/bits/char_traits.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/bits/postypes.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/cwchar:
+/home/ben/pspdev/psp/include/wchar.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/cstdint:
+/home/ben/pspdev/lib/gcc/psp/11.2.0/include/stdint.h:
+/home/ben/pspdev/psp/include/stdint.h:
+/home/ben/pspdev/psp/include/sys/_intsup.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/bits/localefwd.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/psp/bits/c++locale.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/clocale:
+/home/ben/pspdev/psp/include/locale.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/iosfwd:
+/home/ben/pspdev/psp/include/c++/11.2.0/cctype:
+/home/ben/pspdev/psp/include/ctype.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/bits/ostream_insert.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/bits/cxxabi_forced.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/bits/stl_function.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/backward/binders.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/bits/basic_string.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/ext/atomicity.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/psp/bits/gthr.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/psp/bits/gthr-default.h:
+/home/ben/pspdev/psp/include/pthread.h:
+/home/ben/pspdev/psp/include/pte_types.h:
+/home/ben/pspdev/psp/include/errno.h:
+/home/ben/pspdev/psp/include/sys/errno.h:
+/home/ben/pspdev/psp/include/sys/timeb.h:
+/home/ben/pspdev/psp/include/sched.h:
+/home/ben/pspdev/psp/include/bits/posix_opt.h:
+/home/ben/pspdev/psp/include/sys/_pthreadtypes.h:
+/home/ben/pspdev/psp/include/setjmp.h:
+/home/ben/pspdev/psp/include/machine/setjmp.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/psp/bits/atomic_word.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/string_view:
+/home/ben/pspdev/psp/include/c++/11.2.0/bits/string_view.tcc:
+/home/ben/pspdev/psp/include/c++/11.2.0/ext/string_conversions.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/cstdio:
+/home/ben/pspdev/psp/include/c++/11.2.0/cerrno:
+/home/ben/pspdev/psp/include/c++/11.2.0/bits/charconv.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/bits/basic_string.tcc:
+/home/ben/pspdev/psp/include/dirent.h:
+/home/ben/pspdev/psp/include/sys/dirent.h:
+/home/ben/pspdev/psp/include/unistd.h:
+/home/ben/pspdev/psp/include/sys/unistd.h:
+../../include/support.h:
+../../include/support.h:

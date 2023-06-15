@@ -1,0 +1,143 @@
+saa1099.o: saa1099.cpp emu.h ../../../include/dosbox.h ../../../config.h \
+ ../../../include/logging.h \
+ /home/ben/pspdev/lib/gcc/psp/11.2.0/include/stdint.h \
+ /home/ben/pspdev/psp/include/stdint.h \
+ /home/ben/pspdev/psp/include/machine/_default_types.h \
+ /home/ben/pspdev/psp/include/sys/features.h \
+ /home/ben/pspdev/psp/include/_newlib_version.h \
+ /home/ben/pspdev/psp/include/sys/_intsup.h \
+ /home/ben/pspdev/psp/include/sys/_stdint.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/math.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/cmath \
+ /home/ben/pspdev/psp/include/c++/11.2.0/psp/bits/c++config.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/psp/bits/os_defines.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/psp/bits/cpu_defines.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/pstl/pstl_config.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/bits/cpp_type_traits.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/ext/type_traits.h \
+ /home/ben/pspdev/psp/include/math.h \
+ /home/ben/pspdev/psp/include/sys/reent.h \
+ /home/ben/pspdev/psp/include/_ansi.h \
+ /home/ben/pspdev/psp/include/newlib.h \
+ /home/ben/pspdev/psp/include/sys/config.h \
+ /home/ben/pspdev/psp/include/machine/ieeefp.h \
+ /home/ben/pspdev/lib/gcc/psp/11.2.0/include/stddef.h \
+ /home/ben/pspdev/psp/include/sys/_types.h \
+ /home/ben/pspdev/psp/include/machine/_types.h \
+ /home/ben/pspdev/psp/include/sys/lock.h \
+ /home/ben/pspdev/psp/include/sys/cdefs.h \
+ /home/ben/pspdev/psp/include/_ansi.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/bits/std_abs.h \
+ /home/ben/pspdev/psp/include/stdlib.h \
+ /home/ben/pspdev/psp/include/machine/stdlib.h \
+ /home/ben/pspdev/psp/include/alloca.h \
+ /home/ben/pspdev/psp/include/sys/_locale.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/bits/specfun.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/bits/stl_algobase.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/bits/functexcept.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/bits/exception_defines.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/ext/numeric_traits.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/bits/stl_pair.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/bits/move.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/type_traits \
+ /home/ben/pspdev/psp/include/c++/11.2.0/bits/stl_iterator_base_types.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/bits/stl_iterator_base_funcs.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/bits/concept_check.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/debug/assertions.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/bits/stl_iterator.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/bits/ptr_traits.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/debug/debug.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/bits/predefined_ops.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/limits \
+ /home/ben/pspdev/psp/include/c++/11.2.0/tr1/gamma.tcc \
+ /home/ben/pspdev/psp/include/c++/11.2.0/tr1/special_function_util.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/tr1/bessel_function.tcc \
+ /home/ben/pspdev/psp/include/c++/11.2.0/tr1/beta_function.tcc \
+ /home/ben/pspdev/psp/include/c++/11.2.0/tr1/ell_integral.tcc \
+ /home/ben/pspdev/psp/include/c++/11.2.0/tr1/exp_integral.tcc \
+ /home/ben/pspdev/psp/include/c++/11.2.0/tr1/hypergeometric.tcc \
+ /home/ben/pspdev/psp/include/c++/11.2.0/tr1/legendre_function.tcc \
+ /home/ben/pspdev/psp/include/c++/11.2.0/tr1/modified_bessel_func.tcc \
+ /home/ben/pspdev/psp/include/c++/11.2.0/tr1/poly_hermite.tcc \
+ /home/ben/pspdev/psp/include/c++/11.2.0/tr1/poly_laguerre.tcc \
+ /home/ben/pspdev/psp/include/c++/11.2.0/tr1/riemann_zeta.tcc \
+ /home/ben/pspdev/lib/gcc/psp/11.2.0/include/float.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/stdlib.h \
+ /home/ben/pspdev/psp/include/c++/11.2.0/cstdlib \
+ /home/ben/pspdev/psp/include/memory.h \
+ /home/ben/pspdev/psp/include/string.h \
+ /home/ben/pspdev/psp/include/strings.h \
+ /home/ben/pspdev/psp/include/sys/string.h saa1099.h
+emu.h:
+../../../include/dosbox.h:
+../../../config.h:
+../../../include/logging.h:
+/home/ben/pspdev/lib/gcc/psp/11.2.0/include/stdint.h:
+/home/ben/pspdev/psp/include/stdint.h:
+/home/ben/pspdev/psp/include/machine/_default_types.h:
+/home/ben/pspdev/psp/include/sys/features.h:
+/home/ben/pspdev/psp/include/_newlib_version.h:
+/home/ben/pspdev/psp/include/sys/_intsup.h:
+/home/ben/pspdev/psp/include/sys/_stdint.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/math.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/cmath:
+/home/ben/pspdev/psp/include/c++/11.2.0/psp/bits/c++config.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/psp/bits/os_defines.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/psp/bits/cpu_defines.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/pstl/pstl_config.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/bits/cpp_type_traits.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/ext/type_traits.h:
+/home/ben/pspdev/psp/include/math.h:
+/home/ben/pspdev/psp/include/sys/reent.h:
+/home/ben/pspdev/psp/include/_ansi.h:
+/home/ben/pspdev/psp/include/newlib.h:
+/home/ben/pspdev/psp/include/sys/config.h:
+/home/ben/pspdev/psp/include/machine/ieeefp.h:
+/home/ben/pspdev/lib/gcc/psp/11.2.0/include/stddef.h:
+/home/ben/pspdev/psp/include/sys/_types.h:
+/home/ben/pspdev/psp/include/machine/_types.h:
+/home/ben/pspdev/psp/include/sys/lock.h:
+/home/ben/pspdev/psp/include/sys/cdefs.h:
+/home/ben/pspdev/psp/include/_ansi.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/bits/std_abs.h:
+/home/ben/pspdev/psp/include/stdlib.h:
+/home/ben/pspdev/psp/include/machine/stdlib.h:
+/home/ben/pspdev/psp/include/alloca.h:
+/home/ben/pspdev/psp/include/sys/_locale.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/bits/specfun.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/bits/stl_algobase.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/bits/functexcept.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/bits/exception_defines.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/ext/numeric_traits.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/bits/stl_pair.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/bits/move.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/type_traits:
+/home/ben/pspdev/psp/include/c++/11.2.0/bits/stl_iterator_base_types.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/bits/stl_iterator_base_funcs.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/bits/concept_check.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/debug/assertions.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/bits/stl_iterator.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/bits/ptr_traits.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/debug/debug.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/bits/predefined_ops.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/limits:
+/home/ben/pspdev/psp/include/c++/11.2.0/tr1/gamma.tcc:
+/home/ben/pspdev/psp/include/c++/11.2.0/tr1/special_function_util.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/tr1/bessel_function.tcc:
+/home/ben/pspdev/psp/include/c++/11.2.0/tr1/beta_function.tcc:
+/home/ben/pspdev/psp/include/c++/11.2.0/tr1/ell_integral.tcc:
+/home/ben/pspdev/psp/include/c++/11.2.0/tr1/exp_integral.tcc:
+/home/ben/pspdev/psp/include/c++/11.2.0/tr1/hypergeometric.tcc:
+/home/ben/pspdev/psp/include/c++/11.2.0/tr1/legendre_function.tcc:
+/home/ben/pspdev/psp/include/c++/11.2.0/tr1/modified_bessel_func.tcc:
+/home/ben/pspdev/psp/include/c++/11.2.0/tr1/poly_hermite.tcc:
+/home/ben/pspdev/psp/include/c++/11.2.0/tr1/poly_laguerre.tcc:
+/home/ben/pspdev/psp/include/c++/11.2.0/tr1/riemann_zeta.tcc:
+/home/ben/pspdev/lib/gcc/psp/11.2.0/include/float.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/stdlib.h:
+/home/ben/pspdev/psp/include/c++/11.2.0/cstdlib:
+/home/ben/pspdev/psp/include/memory.h:
+/home/ben/pspdev/psp/include/string.h:
+/home/ben/pspdev/psp/include/strings.h:
+/home/ben/pspdev/psp/include/sys/string.h:
+saa1099.h:

@@ -1,0 +1,44 @@
+vga.o: vga.cpp ../../include/dosbox.h ../../config.h \
+ ../../include/logging.h ../../include/video.h ../../include/pic.h \
+ ../../include/vga.h /home/ben/pspdev/psp/include/string.h \
+ /home/ben/pspdev/psp/include/_ansi.h \
+ /home/ben/pspdev/psp/include/newlib.h \
+ /home/ben/pspdev/psp/include/_newlib_version.h \
+ /home/ben/pspdev/psp/include/sys/config.h \
+ /home/ben/pspdev/psp/include/machine/ieeefp.h \
+ /home/ben/pspdev/psp/include/sys/features.h \
+ /home/ben/pspdev/psp/include/sys/reent.h \
+ /home/ben/pspdev/psp/include/_ansi.h \
+ /home/ben/pspdev/lib/gcc/psp/11.2.0/include/stddef.h \
+ /home/ben/pspdev/psp/include/sys/_types.h \
+ /home/ben/pspdev/psp/include/machine/_types.h \
+ /home/ben/pspdev/psp/include/machine/_default_types.h \
+ /home/ben/pspdev/psp/include/sys/lock.h \
+ /home/ben/pspdev/psp/include/sys/cdefs.h \
+ /home/ben/pspdev/psp/include/sys/_locale.h \
+ /home/ben/pspdev/psp/include/strings.h \
+ /home/ben/pspdev/psp/include/sys/string.h
+../../include/dosbox.h:
+../../config.h:
+../../include/logging.h:
+../../include/video.h:
+../../include/pic.h:
+../../include/vga.h:
+/home/ben/pspdev/psp/include/string.h:
+/home/ben/pspdev/psp/include/_ansi.h:
+/home/ben/pspdev/psp/include/newlib.h:
+/home/ben/pspdev/psp/include/_newlib_version.h:
+/home/ben/pspdev/psp/include/sys/config.h:
+/home/ben/pspdev/psp/include/machine/ieeefp.h:
+/home/ben/pspdev/psp/include/sys/features.h:
+/home/ben/pspdev/psp/include/sys/reent.h:
+/home/ben/pspdev/psp/include/_ansi.h:
+/home/ben/pspdev/lib/gcc/psp/11.2.0/include/stddef.h:
+/home/ben/pspdev/psp/include/sys/_types.h:
+/home/ben/pspdev/psp/include/machine/_types.h:
+/home/ben/pspdev/psp/include/machine/_default_types.h:
+/home/ben/pspdev/psp/include/sys/lock.h:
+/home/ben/pspdev/psp/include/sys/cdefs.h:
+/home/ben/pspdev/psp/include/sys/_locale.h:
+/home/ben/pspdev/psp/include/strings.h:
+/home/ben/pspdev/psp/include/sys/string.h:

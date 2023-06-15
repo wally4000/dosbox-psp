@@ -1,0 +1,93 @@
+core_prefetch.o: core_prefetch.cpp /home/ben/pspdev/psp/include/stdio.h \
+ /home/ben/pspdev/psp/include/_ansi.h \
+ /home/ben/pspdev/psp/include/newlib.h \
+ /home/ben/pspdev/psp/include/_newlib_version.h \
+ /home/ben/pspdev/psp/include/sys/config.h \
+ /home/ben/pspdev/psp/include/machine/ieeefp.h \
+ /home/ben/pspdev/psp/include/sys/features.h \
+ /home/ben/pspdev/psp/include/sys/cdefs.h \
+ /home/ben/pspdev/psp/include/machine/_default_types.h \
+ /home/ben/pspdev/lib/gcc/psp/11.2.0/include/stddef.h \
+ /home/ben/pspdev/lib/gcc/psp/11.2.0/include/stdarg.h \
+ /home/ben/pspdev/psp/include/sys/reent.h \
+ /home/ben/pspdev/psp/include/_ansi.h \
+ /home/ben/pspdev/psp/include/sys/_types.h \
+ /home/ben/pspdev/psp/include/machine/_types.h \
+ /home/ben/pspdev/psp/include/sys/lock.h \
+ /home/ben/pspdev/psp/include/sys/types.h \
+ /home/ben/pspdev/psp/include/sys/_stdint.h \
+ /home/ben/pspdev/psp/include/machine/endian.h \
+ /home/ben/pspdev/psp/include/machine/_endian.h \
+ /home/ben/pspdev/psp/include/sys/select.h \
+ /home/ben/pspdev/psp/include/sys/_sigset.h \
+ /home/ben/pspdev/psp/include/sys/_timeval.h \
+ /home/ben/pspdev/psp/include/sys/timespec.h \
+ /home/ben/pspdev/psp/include/sys/_timespec.h \
+ /home/ben/pspdev/psp/include/sys/_pthreadtypes.h \
+ /home/ben/pspdev/psp/include/bits/posix_opt.h \
+ /home/ben/pspdev/lib/gcc/psp/11.2.0/include-fixed/limits.h \
+ /home/ben/pspdev/psp/include/sys/sched.h \
+ /home/ben/pspdev/psp/include/machine/types.h \
+ /home/ben/pspdev/psp/include/sys/stdio.h ../../include/dosbox.h \
+ ../../config.h ../../include/logging.h ../../include/mem.h \
+ ../../include/cpu.h ../../include/regs.h lazyflags.h \
+ ../../include/regs.h ../../include/inout.h ../../include/callback.h \
+ ../../include/pic.h ../../include/fpu.h ../../include/paging.h \
+ instructions.h core_normal/support.h core_normal/helpers.h \
+ core_normal/table_ea.h core_normal/../modrm.h core_normal/string.h \
+ core_normal/prefix_none.h core_normal/prefix_0f.h \
+ core_normal/prefix_66.h core_normal/prefix_66_0f.h
+/home/ben/pspdev/psp/include/stdio.h:
+/home/ben/pspdev/psp/include/_ansi.h:
+/home/ben/pspdev/psp/include/newlib.h:
+/home/ben/pspdev/psp/include/_newlib_version.h:
+/home/ben/pspdev/psp/include/sys/config.h:
+/home/ben/pspdev/psp/include/machine/ieeefp.h:
+/home/ben/pspdev/psp/include/sys/features.h:
+/home/ben/pspdev/psp/include/sys/cdefs.h:
+/home/ben/pspdev/psp/include/machine/_default_types.h:
+/home/ben/pspdev/lib/gcc/psp/11.2.0/include/stddef.h:
+/home/ben/pspdev/lib/gcc/psp/11.2.0/include/stdarg.h:
+/home/ben/pspdev/psp/include/sys/reent.h:
+/home/ben/pspdev/psp/include/_ansi.h:
+/home/ben/pspdev/psp/include/sys/_types.h:
+/home/ben/pspdev/psp/include/machine/_types.h:
+/home/ben/pspdev/psp/include/sys/lock.h:
+/home/ben/pspdev/psp/include/sys/types.h:
+/home/ben/pspdev/psp/include/sys/_stdint.h:
+/home/ben/pspdev/psp/include/machine/endian.h:
+/home/ben/pspdev/psp/include/machine/_endian.h:
+/home/ben/pspdev/psp/include/sys/select.h:
+/home/ben/pspdev/psp/include/sys/_sigset.h:
+/home/ben/pspdev/psp/include/sys/_timeval.h:
+/home/ben/pspdev/psp/include/sys/timespec.h:
+/home/ben/pspdev/psp/include/sys/_timespec.h:
+/home/ben/pspdev/psp/include/sys/_pthreadtypes.h:
+/home/ben/pspdev/psp/include/bits/posix_opt.h:
+/home/ben/pspdev/lib/gcc/psp/11.2.0/include-fixed/limits.h:
+/home/ben/pspdev/psp/include/sys/sched.h:
+/home/ben/pspdev/psp/include/machine/types.h:
+/home/ben/pspdev/psp/include/sys/stdio.h:
+../../include/dosbox.h:
+../../config.h:
+../../include/logging.h:
+../../include/mem.h:
+../../include/cpu.h:
+../../include/regs.h:
+lazyflags.h:
+../../include/regs.h:
+../../include/inout.h:
+../../include/callback.h:
+../../include/pic.h:
+../../include/fpu.h:
+../../include/paging.h:
+instructions.h:
+core_normal/support.h:
+core_normal/helpers.h:
+core_normal/table_ea.h:
+core_normal/../modrm.h:
+core_normal/string.h:
+core_normal/prefix_none.h:
+core_normal/prefix_0f.h:
+core_normal/prefix_66.h:
+core_normal/prefix_66_0f.h:
