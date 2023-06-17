@@ -1,0 +1,65 @@
+# Define variables
+CC = gcc
+CXX = g++
+CFLAGS = -g -Wall -I$(PSPDEV)/psp/include/SDL -Dmain=SDL_main
+CXXFLAGS = -g -Wall
+LIBS = -L$(PSPDEV)/psp/lib -lstdc++ -lSDLmain -lSDL  -lGL -lz -lpng -L$(PSPSDK)/lib/ -lpspdebug -lpspgu -lpspaudio -lpspctrl -lpspirkeyb -lpspvfpu -lpspge -lpspdisplay -lpsppower -lpsphprm
+
+# Set the target and object files
+TARGET = dosbox
+OBJS = src/cpu/callback.o src/cpu/cpu.o src/cpu/flags.o src/cpu/modrm.o src/cpu/core_full.o src/cpu/paging.o \
+       src/cpu/core_normal.o src/cpu/core_simple.o src/cpu/core_prefetch.o src/cpu/core_dyn_x86.o src/cpu/core_dynrec.o \
+       src/debug/debug.o src/debug/debug_gui.o src/debug/debug_disasm.o src/debug/debug_win32.o \
+       src/dos/dos.o src/dos/dos_devices.o src/dos/dos_execute.o src/dos/dos_files.o src/dos/dos_ioctl.o src/dos/dos_memory.o \
+       src/dos/dos_misc.o src/dos/dos_classes.o src/dos/dos_programs.o src/dos/dos_tables.o src/dos/drives.o src/dos/drive_virtual.o \
+       src/dos/drive_local.o src/dos/drive_cache.o src/dos/drive_fat.o src/dos/drive_iso.o src/dos/dos_mscdex.o src/dos/dos_keyboard_layout.o \
+       src/dos/cdrom.o src/dos/cdrom_ioctl_win32.o src/dos/cdrom_aspi_win32.o src/dos/cdrom_ioctl_linux.o src/dos/cdrom_image.o src/dos/cdrom_ioctl_os2.o \
+       src/fpu/fpu.o \
+       src/gui/sdl_mapper.o src/gui/render.o src/gui/render_scalers.o src/gui/midi.o src/gui/sdl_gui.o \
+       src/hardware/adlib.o src/hardware/dma.o src/hardware/gameblaster.o src/hardware/hardware.o src/hardware/iohandler.o \
+       src/hardware/joystick.o src/hardware/keyboard.o src/hardware/memory.o src/hardware/mixer.o src/hardware/pcspeaker.o \
+       src/hardware/pic.o src/hardware/sblaster.o src/hardware/tandy_sound.o src/hardware/timer.o \
+       src/hardware/vga.o src/hardware/vga_attr.o src/hardware/vga_crtc.o src/hardware/vga_dac.o src/hardware/vga_draw.o src/hardware/vga_gfx.o \
+       src/hardware/vga_other.o src/hardware/vga_memory.o src/hardware/vga_misc.o src/hardware/vga_seq.o src/hardware/vga_xga.o src/hardware/vga_s3.o \
+       src/hardware/vga_tseng.o src/hardware/vga_paradise.o src/hardware/cmos.o src/hardware/disney.o src/hardware/gus.o src/hardware/mpu401.o \
+       src/hardware/ipx.o src/hardware/ipxserver.o src/hardware/dbopl.o \
+       src/hardware/mame/sn76496.o src/hardware/mame/saa1099.o \
+       src/hardware/serialport/directserial.o src/hardware/serialport/libserial.o src/hardware/serialport/serialdummy.o src/hardware/serialport/serialport.o \
+       src/hardware/serialport/softmodem.o src/hardware/serialport/misc_util.o src/hardware/serialport/nullmodem.o \
+       src/ints/mouse.o src/ints/xms.o src/ints/ems.o src/ints/int10.o src/ints/int10_char.o src/ints/int10_memory.o src/ints/int10_misc.o \
+       src/ints/int10_modes.o src/ints/int10_vesa.o src/ints/int10_pal.o src/ints/int10_put_pixel.o src/ints/int10_video_state.o \
+       src/ints/int10_vptable.o src/ints/bios.o src/ints/bios_disk.o src/ints/bios_keyboard.o \
+       src/libs/gui_tk/gui_tk.o \
+       src/misc/cross.o src/misc/messages.o src/misc/programs.o src/misc/setup.o src/misc/support.o \
+       src/shell/shell.o src/shell/shell_batch.o src/shell/shell_cmds.o src/shell/shell_misc.o \
+       src/dosbox.o src/gui/sdlmain.o
+
+# Set include directories
+INCLUDES = -Iinclude -I.
+
+.PHONY: all clean
+
+# Default target
+all: $(TARGET)
+
+# Link the target
+$(TARGET): $(OBJS) $(HEADERS)
+	$(CXX) $(CXXFLAGS) $(INCLUDES) -o $@ $^ $(LIBS)
+
+# Compile C source files
+%.o: %.c
+	$(CC) $(CFLAGS) $(INCLUDES) -c $< -o $@
+
+# Compile C++ source files
+%.o: %.cpp
+	$(CXX) $(CXXFLAGS) $(INCLUDES) -c $< -o $@
+
+# Clean the project
+clean:
+	rm -f $(TARGET) $(OBJS)
+
+BUILD_PRX=1
+EXTRA_TARGETS=EBOOT.PBP
+
+include $(PSPSDK)/lib/build.mak
+
