@@ -1,12 +1,4 @@
-# Define variables
-CC = gcc
-CXX = g++
-CFLAGS = -g -Wall -I$(PSPDEV)/psp/include/SDL -Dmain=SDL_main
-CXXFLAGS = -g -Wall
-LIBS = -L$(PSPDEV)/psp/lib -lstdc++ -lSDLmain -lSDL  -lGL -lz -lpng -L$(PSPSDK)/lib/ -lpspdebug -lpspgu -lpspaudio -lpspctrl -lpspirkeyb -lpspvfpu -lpspge -lpspdisplay -lpsppower -lpsphprm
-
-# Set the target and object files
-TARGET = dosbox
+TARGET=dosbox
 OBJS = src/cpu/callback.o src/cpu/cpu.o src/cpu/flags.o src/cpu/modrm.o src/cpu/core_full.o src/cpu/paging.o \
        src/cpu/core_normal.o src/cpu/core_simple.o src/cpu/core_prefetch.o src/cpu/core_dyn_x86.o src/cpu/core_dynrec.o \
        src/debug/debug.o src/debug/debug_gui.o src/debug/debug_disasm.o src/debug/debug_win32.o \
@@ -34,29 +26,14 @@ OBJS = src/cpu/callback.o src/cpu/cpu.o src/cpu/flags.o src/cpu/modrm.o src/cpu/
        src/shell/shell.o src/shell/shell_batch.o src/shell/shell_cmds.o src/shell/shell_misc.o \
        src/dosbox.o src/gui/sdlmain.o
 
-# Set include directories
-INCLUDES = -Iinclude -I.
+CFLAGS = -Wall -O2 -I$(PSPDEV)/psp/include/SDL -Dmain=SDL_main -Iinclude -I. -fno-exceptions
+CXXFLAGS = $(CFLAGS)
+ASFLAGS = $(CFLAGS)
 
-.PHONY: all clean
+LIBDIR = 
+LDFLAGS = 
+LIBS = -L$(PSPDEV)/psp/lib -lstdc++ -lSDLmain -lSDL  -lGL -lz -lpng -L$(PSPSDK)/lib/ -lpspdebug -lpspgu -lpspaudio -lpspctrl -lpspirkeyb -lpspvfpu -lpspge -lpspdisplay -lpsppower -lpsphprm
 
-# Default target
-all: $(TARGET)
-
-# Link the target
-$(TARGET): $(OBJS) $(HEADERS)
-	$(CXX) $(CXXFLAGS) $(INCLUDES) -o $@ $^ $(LIBS)
-
-# Compile C source files
-%.o: %.c
-	$(CC) $(CFLAGS) $(INCLUDES) -c $< -o $@
-
-# Compile C++ source files
-%.o: %.cpp
-	$(CXX) $(CXXFLAGS) $(INCLUDES) -c $< -o $@
-
-# Clean the project
-clean:
-	rm -f $(TARGET) $(OBJS)
 
 BUILD_PRX=1
 EXTRA_TARGETS=EBOOT.PBP
